@@ -27,18 +27,18 @@ NTPClient timeClient(ntpUDP);
 #include <addons/TokenHelper.h>
 
 //Replace with your network credentials
-const char* ssid = "Coral";
-const char* password = "0526650522";
+const char* ssid = "WIFI_NAME";
+const char* password = "WIFI_PASSWORD";
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyCMSlFScm33QgC8L2a3fVfHam4l4cTaJlo"
+#define API_KEY "API_KEY"
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "host@gmail.com"
-#define USER_PASSWORD "123456"
+#define USER_EMAIL "USER_EMAIL"
+#define USER_PASSWORD "USER_PASSWORD"
 
 // Insert Firebase storage bucket ID e.g bucket-name.appspot.com
-#define STORAGE_BUCKET_ID "fridgeit-d17ae.appspot.com"
+#define STORAGE_BUCKET_ID "STORAGE_BUCKET_ID"
 
 // Photo File Name to save in SPIFFS
 #define FILE_PHOTO "/image1.png"
